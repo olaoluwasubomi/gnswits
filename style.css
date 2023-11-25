@@ -1,0 +1,383 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    width:100%;
+}
+/* THE NAVIGATION */
+.main-bg{
+    background-image:url(images/Frame\ 1181.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:20px 0 900px;
+}
+.white-bg{
+    background:#fff;
+    width:95%;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:5px 15px;
+    border-radius:10px;
+}
+.gns-logo{
+    width:20%;
+}
+.gns-logo img{
+    width:20%;
+}
+nav{
+    width:55%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+nav ul{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:64%;
+}
+nav ul li{
+    list-style:none;
+}
+nav  ul li a{
+    display:block;
+    text-decoration:none;
+    padding:0 20px;
+    color:#434141;
+    text-transform:capitalize;
+    font-size:15px;
+}
+.nav-link , .institution-link{
+    width:30%;
+    background:#006894;
+    border-radius:50px;
+}
+.nav-link a ,.institution-link a{
+    display:block;
+    padding:15px;
+    text-align:center;
+    color:#fff;
+    text-decoration:none;
+}
+/* End of nav */
+
+/* Empowering Section */
+.empower-main{
+    padding:80px 0;
+}
+.empower-head{
+    text-align:center;
+    text-transform:capitalize;
+    color:#484747;
+    font-weight:semi-bold;
+    font-size:20px;
+}
+.empower-content{
+    margin:40px 0 0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.empower-text{
+    margin-left:40px;
+}
+.empower-text h3{
+    color:#0E82B3;
+    font-weight:semi-bold;
+    font-size:25px;
+}
+.empower-text p{
+    margin:20px 0 0;
+    color:#726B6B;
+    width:70%;
+    line-height:1.4em;
+}
+/* End of empowering section */
+
+/* Institution */
+.institution-main img{
+    position:absolute;
+    left:1295px;
+    z-index:-1;
+    width:10%;
+}
+.institution-text , .news-head{
+    padding:60px 0 30px;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:3em;
+    color:#484747;
+}
+.main-section{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding:0 80px;
+    margin-top:25px;
+}
+.university-info{
+    width:23%;
+    background:#fff;
+    border-radius:10px;
+    margin:20px 0;
+    position:relative;
+    z-index:-1;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.university-info img{
+    width:100%;
+}
+.uni-text{
+    z-index:-1;
+    padding:20px 20px 10px;
+}
+.elipse-1{
+    position:absolute;
+    width:100%;
+    bottom:120px;
+    z-index:-1;
+}
+.elipse-1 img{
+    width:15%;
+}
+.elipse-2{
+    position:absolute;
+    top:180px;
+    left:225px;
+}
+.uni-text h5{
+    color:#025D83;
+    font-weight:bold;
+    font-size:1em;
+}
+.uni-text p{
+    font-size:0.85em;
+    padding:5px 0;
+}
+.uni-text a{
+    display:block;
+    text-decoration:none;
+    color:#006894;
+    font-size:0.8em;
+}
+.arrow{
+    display:flex;
+    align-items:center;
+}
+.arrow i{
+    padding-left:6px;
+    color:#006894;
+    width:5%;
+    font-size:0.7em;
+}
+.institution-link{
+    width:15%;
+    margin:30px auto 10px;
+}
+/* End of Institution */
+
+/* Latest News */
+.news-head{
+    padding:0;
+    margin:90px 0 0;
+    font-size:2.2em;
+}
+.news-main{
+    /* background:red; */
+    padding:0  80px;
+}
+.news{
+    display:flex;
+    align-items:start;
+    justify-content:space-between;
+    width:100%;
+    padding:30px 0 0;
+}
+.news-content{
+    /* background:green; */
+}
+.news-download{
+    /* background:yellow; */
+}
+.news-title{
+    color:#0E82B3;
+    font-weight:bold;
+    font-size:1.5em;
+}
+.sub-news{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin:20px 0 0;
+}
+.sub-news img{
+    width:30%;
+}
+.sub-news div{
+    margin-left:20px;
+}
+/* QUESTIONS */
+.question-main{
+    background:#03415C;
+    margin:40px 0 0;
+    padding:30px 0;
+    text-align:center;
+}
+.question-main h3{
+    color:#fff;
+    font-size:1.5em;
+    line-height:1.5em;
+}
+.buttons{
+    margin:30px auto 0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:28%;
+}
+.buttons button{
+    display:block;
+    padding:15px;
+    width:45%;
+    border:none;
+    border-radius:50px;
+}
+.contact-btn{
+    color:#006894;
+    font-weight:bold;
+    font-size:0.7em;
+}
+.buttons .join-btn{
+    color:#fff;
+    background:transparent;
+    border:1px solid #fff;
+    font-size:0.7em;
+}
+/* END OF QUESTIONS */
+
+/* DON'T MISS OUT FORM */
+.form-main{
+    background:#fff;
+    padding:80px 0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.form-main img{
+    width:40%;
+}
+.form-text{
+    width:30%;
+    margin:0 auto;
+}
+.form-text h3{
+    color:#0E82B3;
+    font-size:1.5em;
+}
+.form-text p{
+    margin:10px 0;
+}
+.form-text form input{
+    display:block;
+    padding:15px;
+    margin:10px 0 0;
+    width:100%;
+    border-radius:50px;
+    border:none;
+    border:1px solid black;
+    outline:none;   
+}
+.form-text form input[type="submit"]{
+    margin:20px 0 0;
+    background:#006894;
+    border:none;
+    color:#fff;
+}
+/* END OF DON'T MISS OUT FORM */
+/* FOOTER */
+footer{
+    background:#022D3F;
+    padding:30px 50px 0;
+}
+.footer-1{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.sub-footer span , i{
+    color:#fff;
+    padding:0 3px;
+}
+.sub-footer span{
+    font-size:0.8em;
+}
+.hr-1{
+    margin:15px 0 0;
+    border:-1px solid #fff;
+    opacity:1;
+}
+.sub-footers{
+    padding:40px 0 80px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    color:#fff;
+    margin:0 auto;
+}
+.browse{
+    width:50%;
+}
+.browse h6{
+    font-size:1em;
+    margin:0 0 10px;
+}
+.browse span{
+    display:block;
+    margin:10px 0 0;
+    font-size:0.8em;
+    color:#D8D1D1;
+}
+.touch{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px;
+    background:#fff;
+    width:70%;
+    border-radius:50px;
+    margin:5px 0 0;
+
+}
+.touch span , .touch i {
+    color:#006894;
+}
+.touch button{
+    border:none;
+    padding:5px;
+    border-radius:50px;
+    width:50%;
+    background:#006894;
+    color:#fff;
+}
+.footer-text{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 0 10px;
+    color:#D8D1D1;
+    font-size:0.7em;
+}
+.footer-text p{
+    width:86%;
+}
+/* END OF FOOTER */
+
+/* END OF THE BODY */
+
